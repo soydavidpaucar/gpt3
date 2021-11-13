@@ -5,12 +5,12 @@
 	scroll-behavior : smooth;
 }
 
-* {
-	background : var(--color-bg);
-}
-
 html {
 	font-size : 62.5%;
+}
+
+body {
+	background : var(--color-bg);
 }
 
 a {
