@@ -1,10 +1,11 @@
 import {Blog, Features, Footer, Header, Possibility, WhatGPT3} from './containers';
 import {Brand, CTA, Navbar} from './components';
+import './App.css';
 
 const App = () => {
 	return (
 		<div className="app">
-			<div className="app--gradient-bg">
+			<div className="gradient-bg">
 				<Navbar />
 				<Header />
 			</div>
