@@ -38,8 +38,8 @@ const Navbar = () => {
 			
 			<div className="navbar__menu">
 				{toggleMenu
-					? <FontAwesomeIcon icon={faXmark} color="#FFFFFF" size="3x" onClick={() => setToggleMenu(false)} />
-					: <FontAwesomeIcon icon={faBars} color="#FFFFFF" size="3x" onClick={() => setToggleMenu(true)} />
+					? <FontAwesomeIcon icon={faXmark} color="#FFFFFF" onClick={() => setToggleMenu(false)} />
+					: <FontAwesomeIcon icon={faBars} color="#FFFFFF" onClick={() => setToggleMenu(true)} />
 				}
 				
 				{toggleMenu && (
