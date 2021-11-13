@@ -1,0 +1,128 @@
+.navbar {
+	align-items     : center;
+	display         : flex;
+	justify-content : space-between;
+	padding         : 3.2rem 9.6rem;
+}
+
+.navbar__links {
+	align-items     : center;
+	display         : flex;
+	flex            : 1;
+	justify-content : flex-start;
+}
+
+.navbar__links__logo {
+	margin-right : 3.2rem;
+}
+
+.navbar__links__logo img {
+	height : 1.6rem;
+	width  : 6.2rem;
+}
+
+.navbar__links__container {
+	display : flex;
+}
+
+.navbar--sign {
+	align-items     : center;
+	display         : flex;
+	justify-content : flex-end;
+}
+
+.navbar__links__container p,
+.navbar--sign p,
+.navbar__menu__container p {
+	color          : #FFFFFF;
+	cursor         : pointer;
+	font-family    : var(--font-family);
+	font-size      : 1.8rem;
+	font-weight    : 500;
+	line-height    : 2.5rem;
+	margin         : 0 1.6rem;
+	text-transform : capitalize;
+}
+
+.navbar--sign button,
+.navbar__menu__container button {
+	background    : #FF4820;
+	border        : none;
+	border-radius : .5rem;
+	color         : #FFFFFF;
+	cursor        : pointer;
+	font-family   : var(--font-family);
+	font-size     : 1.8rem;
+	font-weight   : 500;
+	outline       : none;
+	padding       : .8rem 1.6rem;
+}
+
+.navbar__menu {
+	display     : none;
+	margin-left : 1.6rem;
+	position    : relative;
+}
+
+.navbar__menu svg {
+	cursor : pointer;
+}
+
+.navbar__menu__container {
+	align-items     : flex-end;
+	background      : var(--color-footer);
+	border-radius   : .5rem;
+	box-shadow      : 0 0 5 rgba(0, 0, 0, .2);
+	display         : flex;
+	flex-direction  : column;
+	justify-content : flex-end;
+	margin-top      : 1.6rem;
+	min-width       : 21rem;
+	padding         : 3.2rem;
+	position        : absolute;
+	right           : 0;
+	text-align      : end;
+	top             : 4rem;
+}
+
+.navbar__menu__container p {
+	margin : 1.6rem 0;
+}
+
+.navbar__menu__container__links--sign {
+	display : none;
+}
+
+@media screen and (max-width : 1050px) {
+	.navbar__links__container {
+		display : none;
+	}
+	
+	.navbar__menu {
+		display : flex;
+	}
+}
+
+@media screen and (max-width : 700px) {
+	.navbar {
+		padding : 3.2rem 6.4rem;
+	}
+}
+
+@media screen and (max-width : 500px) {
+	.navbar {
+		padding : 3.2rem;
+	}
+	
+	.navbar--sign {
+		display : none;
+	}
+	
+	.navbar__menu__container {
+		top : 2rem;
+	}
+	
+	.navbar__menu__container__links--sign {
+		display : block;
+	}
+}
