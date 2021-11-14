@@ -1,9 +1,12 @@
 import './brand.css';
-import {dropbox, google, shopify, slack} from './imports';
+import {atlassian, dropbox, google, shopify, slack} from './imports';
 
 const Brand = () => {
 	return (
-		<div className="brand section__padding">
+		<div className="brand section--padding">
+			<div>
+				<img src={atlassian} alt="Google Image" />
+			</div>
 			<div>
 				<img src={google} alt="Google Image" />
 			</div>
