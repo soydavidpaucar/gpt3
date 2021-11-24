@@ -7,8 +7,8 @@ const Feature = ({title, text}) => {
 				<div />
 				<h1>{title}</h1>
 			</div>
-			<div className="whatgpt3__features__container__feature--text">
-				{text}
+			<div className="whatgpt3__features__container_feature--text">
+				<p>{text}</p>
 			</div>
 		</div>
 	);
