@@ -75,7 +75,7 @@
 }
 
 /* Customizing feature component as per needs */
-.whatgpt3__container .whatgpt3__features__container__feature--text {
+.whatgpt3__container .whatgpt3__features__container_feature--text {
 	margin-top : .8rem;
 }
 
@@ -98,7 +98,7 @@
 	}
 	
 	/* Customizing feature component as per needs */
-	.whatgpt3__feature .whatgpt3__features__container__feature--text {
+	.whatgpt3__feature .whatgpt3__features__container_feature--text {
 		margin-top : .8rem;
 	}
 	
