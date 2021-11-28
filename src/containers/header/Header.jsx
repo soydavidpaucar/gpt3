@@ -16,13 +16,13 @@ const Header = () => {
 				</div>
 				
 				<div className="header__content__people">
-					<img src={people} alt="People Image" />
+					<img src={people} alt="People" />
 					<p>1,600 people requested access a visit in last 24 hours</p>
 				</div>
 			</div>
 			
 			<div className="header__image">
-				<img src={ai} alt="AI Image" />
+				<img src={ai} alt="AI" />
 			</div>
 		</div>
 	);

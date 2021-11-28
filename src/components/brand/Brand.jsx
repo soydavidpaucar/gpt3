@@ -5,19 +5,19 @@ const Brand = () => {
 	return (
 		<div className="brand section--padding">
 			<div>
-				<img src={atlassian} alt="Google Image" />
+				<img src={atlassian} alt="Atlassian" />
 			</div>
 			<div>
-				<img src={google} alt="Google Image" />
+				<img src={google} alt="Google" />
 			</div>
 			<div>
-				<img src={slack} alt="Slack Image" />
+				<img src={slack} alt="Slack" />
 			</div>
 			<div>
-				<img src={dropbox} alt="Dropbox Image" />
+				<img src={dropbox} alt="Dropbox" />
 			</div>
 			<div>
-				<img src={shopify} alt="Shopify Image" />
+				<img src={shopify} alt="Shopify" />
 			</div>
 		</div>
 	);
