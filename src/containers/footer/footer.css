@@ -1,0 +1,129 @@
+.footer {
+	align-items     : center;
+	background      : var(--color-footer);
+	display         : flex;
+	flex-direction  : column;
+	justify-content : center;
+}
+
+.footer__heading {
+	margin-bottom : 4.8rem;
+	text-align    : center;
+	width         : 100%;
+}
+
+.footer__heading h1 {
+	font-family : var(--font-family);
+	font-size   : 6.2rem;
+	font-weight : 800;
+}
+
+.footer__button {
+	align-items     : center;
+	border          : .1rem solid #FFFFFF;
+	cursor          : pointer;
+	display         : flex;
+	justify-content : center;
+	margin-bottom   : 16rem;
+	padding         : 1.6rem;
+	text-align      : center;
+}
+
+.footer__button p {
+	color        : #FFFFFF;
+	font-family  : var(--font-family);
+	font-size    : 1.8rem;
+	word-spacing : .2rem;
+}
+
+.footer__links {
+	align-items     : flex-start;
+	display         : flex;
+	flex-direction  : row;
+	flex-wrap       : wrap;
+	justify-content : space-between;
+	text-align      : left;
+	width           : 100%;
+}
+
+.footer__links div {
+	margin : 1.6rem;
+	width  : 250px;
+}
+
+.footer__links__logo {
+	display        : flex;
+	flex-direction : column;
+}
+
+.footer__links__logo img {
+	height        : 30px;
+	margin-bottom : 1.6rem;
+	width         : 118px;
+}
+
+.footer__links__logo p {
+	color       : #FFFFFF;
+	font-family : var(--font-family);
+	font-size   : 1.2rem;
+}
+
+.footer__links__div {
+	display         : flex;
+	flex-direction  : column;
+	justify-content : flex-start;
+}
+
+.footer__links__div h4 {
+	color         : #FFFFFF;
+	font-family   : var(--font-family);
+	font-size     : 1.4rem;
+	margin-bottom : 1.6rem;
+}
+
+.footer__links__div p {
+	color       : #FFFFFF;
+	cursor      : pointer;
+	font-family : var(--font-family);
+	font-size   : 1.2rem;
+	margin      : .8rem 0;
+}
+
+.footer__copyright {
+	margin-top : 3.2rem;
+	text-align : center;
+	width      : 100%;
+}
+
+.footer__copyright p {
+	color       : #FFFFFF;
+	font-family : var(--font-family);
+	font-size   : 1.2rem;
+}
+
+@media screen and (max-width : 850px) {
+	.footer__heading h1 {
+		font-size : 4.4rem;
+	}
+}
+
+@media screen and (max-width : 550px) {
+	.footer__heading h1 {
+		font-size : 3.4rem;
+	}
+	
+	.footer__links__div {
+		margin : 1.6rem 0;
+	}
+	
+	.footer__button p {
+		font-size : 1.4rem;
+	}
+}
+
+@media screen and (max-width : 550px) {
+	.footer__heading h1 {
+		font-size : 2.7rem;
+	}
+}
+
